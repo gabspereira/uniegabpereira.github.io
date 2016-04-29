@@ -3,7 +3,9 @@ layout: page
 title: Sobre
 permalink: /about/
 ---
-<head><link href="css/bootstrap.min.css" rel="stylesheet"></head>
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
 <div class="col-md-6 col-xs-12"><img src="/img/gabriel_pereira.png"></div>
 <div class="col-md-6 col-xs-12">
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
