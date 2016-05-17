@@ -5,35 +5,27 @@
     <h2 class="footer-heading">{{ site.title }}</h2>
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col footer-col-3">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><i class="fa fa-inbox fa-2x" aria-hidden="true"></i><a href="mailto:{{ site.email }}"> {{ site.email }}</a></li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
+      <div class="footer-col footer-col-3 center-block">
           <!--{% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
           </li>
-          {% endif %}-->
+          {% endif %}
+        -->
+            <a class="icon-block" href="https://www.facebook.com/forcainovadora" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+            <a class="icon-block" href="https://twitter.com/forcainovadora" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+            <a class="icon-block" href="https://www.instagram.com/forcainovadora/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+            <a class="icon-block" href="https://plus.google.com/118326392108738025231" target="_blank"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-          {% if site.facebook_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
+      <div class="footer-col footer-col-12">
         <p>{{ site.description }}</p>
       </div>
     </div>
