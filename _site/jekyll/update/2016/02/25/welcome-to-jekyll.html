@@ -23,23 +23,24 @@
 
 
   <body>
-
-    <div class="container">
-    <header>
+<div class="container">
+        <header>
       <ul class="nav">
-        <li><a href="/about">Sobre</a></li>
+        <li><a href="/sobre.html">Sobre</a></li>
 				<li><a href="/projects">Projects</a></li>
         <li class="logo"><a href="/">FI</a></li>
 				<li><a href="/opinion">Opinion</a></li>
         <li><a href="/talks">Talks</a></li>
       </ul>
     </header>
-</div>
 
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <head>
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
@@ -82,6 +83,8 @@
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 </article>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></scr
 
 
       </div>
@@ -91,19 +94,20 @@
 
   <div class="wrapper">
     <div class="footer-col-wrapper">
-      <div class="col-md-12">
-          <div class="col-md-4 center-block">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-4 center-block">
             <center><a class="icon-block block-center" href="https://www.facebook.com/forcainovadora" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></center>
-            <p>Comunidade com pessoas que pensam fora da caixa</p>
+            <p class="clearfix visible-sm-block visible-md-block visible-lg-block">Comunidade com pessoas que pensam fora da caixa</p>
           </div>
-          <div class="col-md-4 center-block">
+          <div class="col-md-4 col-sm-4 col-xs-4 center-block">
             <center><a class="icon-block" href="https://twitter.com/forcainovadora" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></center>
-            <p>Insights a qualquer hora para potencializar seu dia</p>
+            <p class="clearfix visible-sm-block visible-md-block visible-lg-block">Insights a qualquer hora para potencializar seu dia</p>
           </div>
-          <div class="col-md-4 center-block">
+          <div class="col-md-4 col-sm-4 col-xs-4 center-block">
             <center><a class="icon-block" href="https://www.instagram.com/forcainovadora/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></center>
-            <p>Como eu vejo o mundo pelas lentes do meu celular</p>
+            <p class="clearfix visible-sm-block visible-md-block visible-lg-block">Como eu vejo o mundo pelas lentes do meu celular</p>
           </div>
+</br>
       </div>
       <!--  <div class="footer-col footer-col-12">
       <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -116,6 +120,7 @@
 </footer>
 
     <script id="dsq-count-scr" src="//uniegabpereira.disqus.com/count.js" async></script>
+</div>    
   </body>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
