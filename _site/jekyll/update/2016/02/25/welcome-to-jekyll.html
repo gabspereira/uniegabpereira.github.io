@@ -9,110 +9,35 @@
   <title>Welcome to Jekyll!</title>
   <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
 
-  <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://uniegabpereira.github.io/jekyll/update/2016/02/25/welcome-to-jekyll.html">
   <link rel="alternate" type="application/rss+xml" title="Força Inovadora" href="http://uniegabpereira.github.io/feed.xml">
 
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/base.css" type="text/css">
+  <link media="all" href="https://use.typekit.net/c/46f784/1w;proxima-nova-1,2,2clzCG:W:i4,2clzC6:W:i7,2clzCF:W:n4,2clzC5:W:n7/l" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </head>
 
 
-  <body style='font-family: "Open Sans", sans-serif;'>
+  <body>
 
-    <header class="site-header">
+    <div class="container">
+    <header>
+      <ul class="nav">
+        <li><a href="/about">Sobre</a></li>
+				<li><a href="/projects">Projects</a></li>
+        <li class="logo"><a href="/">FI</a></li>
+				<li><a href="/opinion">Opinion</a></li>
+        <li><a href="/talks">Talks</a></li>
+      </ul>
+    </header>
+</div>
 
-<div class="col-md-12 col-xs-12">
-    <a href="/"><img src="/img/Logo FI.png" align="left">
-    <img src="/img/Texto FI.png" style="margin-top: 12px;" href="/"></a>
-  <!--<a class="site-title" href="/">Força Inovadora</a>-->
 
-    <nav class="site-nav" style="z-index: 999;">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-        
-          
-        
-          
-        
-          
-          <a class="page-link" href="/sobre.html"><strong>Sobre</strong></a>
-          
-        
-      </div>
-    </nav>
-
-  </div>
-
-</header>
-
-    <!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#banner_header{
-		color: #a5bdc5;
-		float: left;
-		padding-top: 40px;
-		font-size: 50px;
-		text-shadow: #28353a 1px 1px 0;
-		letter-spacing: -2px;
-		line-height: 90%;}
-
-	#banner_text{
-		color: #fff;
-		font-size: 24px;
-		text-align: center;
-		line-height: 120%;
-		float: left;
-		padding: 30px 0 70px;
-		background: url(/img/seta_baixo.png) no-repeat center 20%;
-	}
-
-	#banner{
-		padding-bottom: 5px;
-		margin-bottom: 30px;
-		border-bottom: 1px solid #fff;
-		background: #3A464A url(/img/seta_baixo.png) 0 bottom repeat-x;
-	}
-
-	#banner_inferior{
-		float: right;
-		padding-bottom: 20px;
-	}
-
-	#banner_img{
-		margin-top: 20px;
-	}
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="banner" class="col-md-12 col-xs-12">
-	<div class="col-md-5 block-center"><h1 id="banner_header">MAIS QUE UM BLOG, UM ESTILO DE VIDA</h1></div>
-	<div class="col-md-3 col-xs-12"><img class=" center-block" id="banner_img" src="img/mktmail.png"></div>
-	<div class="col-md-4 col-xs-12"><p for="mce-EMAIL" id="banner_text">Coloque o seu email aqui para receber gratuitamente as atualizações do blog!</p></div>
-		<div id="banner_inferior">
-			<form class="form-inline" action="//forcainovadora.us13.list-manage.com/subscribe/post?u=642caad04f860b9c091295e15&amp;id=0de4b4bfcd" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-			    <div class="col-md-6 col-xs-12 form-group"><span style="color: #9cacb2;margin-right: 10px;">Respeitamos sua privacidade. Você está<strong> 100% </strong>seguro!</span></div>
-						<div class="col-md-3 col-xs-12"><input type="email" class="form-control" id="exampleInputEmail1" value="" name="EMAIL" placeholder="seu email..." required></div>
-			    		<div class="col-md-3 col-xs-12"><input style="font-weight: 700;" type="submit" value="Quero Receber!" name="subscribe" class="btn btn-success center-block"></div>
-
-					</div>
-			</form>
-	</div>
-
-<!--End mc_embed_signup-->
-
-    <div class="page-content" style="background-color: rgb(242, 242, 242);">
+    <div class="page-content">
       <div class="wrapper">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -165,9 +90,6 @@
     <footer class="site-footer">
 
   <div class="wrapper">
-
-    <h2 class="footer-heading">Força Inovadora</h2>
-
     <div class="footer-col-wrapper">
       <div class="col-md-12">
           <div class="col-md-4 center-block">
@@ -183,10 +105,10 @@
             <p>Como eu vejo o mundo pelas lentes do meu celular</p>
           </div>
       </div>
-      <div class="footer-col footer-col-12">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+      <!--  <div class="footer-col footer-col-12">
+      <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </p>
-      </div>
+      </div>-->
     </div>
 
   </div>
