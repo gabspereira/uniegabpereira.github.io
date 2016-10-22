@@ -33,7 +33,7 @@ a img{ border:none; }
 
 body {
   font-family: "proxima-nova-1", "proxima-nova-2", Arial, sans-serif;
-  font-size: 17px;
+  font-size: 21px;
   line-height: 1.4;
   color: #333;
   background: #f7f7fa;
@@ -67,7 +67,7 @@ hr:before {
 
 .container {
   margin: 0 auto;
-  max-width: 680px;
+/*  max-width: 680px;*/
   padding: 0 20px;
 }
 

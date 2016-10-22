@@ -1,25 +1,64 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+
 <head>
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-<div class="home">
+<body style="background-color: #eeeeee; font-family: 'Open Sans', sans-serif;">
+  <div class="col-md-6 col-xs-12" style="padding-left: 0px;"> <!--FOTO-->
+     <img src="../img/Picture.jpg" width="100%">
+  </div>
+<div id="teste" class="col-md-6 col-xs-12 "><!--COMUNICAO-->
+    <h2 style="margin-top: 5%;color: #333;"><strong>GABRIEL FARIA</strong></h2></br>
+    <h3 class="text-danger">Técnicas e Sacadas de Inovação para Impulsionar Você e Seu Negócio.</h3>
+    <h5>Amo construir meus próprios projetos e <strong class="text-info">me dedico intensamente em agregar valor na vida das pessoas que me seguem.</strong></h5>
+    <h5>Se você curte esse tema, vai lá e acompanha o conteúdo que estou gerando nas minhas mídias socias.</h5>
+  </br><h5>Sucesso pra Você!</h5>
+        <div class="text-center">
+            <a href="#"><span  class="fa-stack fa-lg">
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x"></i>
+            </span></a>
 
-  <h1 class="page-heading text-center">BLOG <strong>FORÇA INOVADORA (#FI)</strong></h1>
+            <a href="#"><span class="fa-stack fa-lg">
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x"></i>
+            </span></a>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-<div class="col-xs-12 col-md-6">
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <a href="{{ post.url | prepend: site.baseurl }}"><img class="img-responsive" src="/img/{{ post.cover-img }}.jpg" ></img></a>
-        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      </li>
+            <a href="#"><span class="fa-stack fa-lg">
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-inbox fa-stack-1x"></i>
+            </span></a>
+        </div>
+
+</br>
+<!-- MAIL -->
+      <div id="flash" class="col-md-12">
+      <h4>Cadastre-se na Minha Lista VIP e receba semanalmente conteúdos exclusivos sobre <strong class="text-danger">Inovação<strong></h4>
+        <forms>
+          <div class="form-group col-md-4">
+            <label>Nome</label>
+            <input type="text" class="form-control" placeholder="seu nome aqui">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="exampleInputEmail1">E-mail</label>
+            <input type="mail" class="form-control" placeholder="seuemail@exemplo.com">
+          </div>
+          <div class="form-group col-md-3">
+            <button type="submit" class="btn btn-danger">QUERO ME CADASTRAR</button>
+          </div>
+
+        </form>
 </div>
-    {% endfor %}
-  </ul>
-<div class="col-xs-12 col-md-12">
-  <p class="rss-subscribe">inscreva-se <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</div>
-</div>
+    </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script>
+$('#teste').addClass('animated slideInUp');
+$('#teste2').addClass('animated flash');
+</script>
+</html>
